@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+body{
+  height: 100vh;
+  background-image: linear-gradient(to right, rgb(151, 208, 241), rgb(255, 192, 250));
+}
+
+.signin-box{
+  width: 500px;
+  height: 500px;
+  border: 0px solid black;
+  background-color: rgba(255, 255, 255, 0.158);
+  border-radius: 40px;
+  box-shadow: 0px 0px 10px rgba(134, 134, 134, 0.548);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 1.5%;
+  
+}
+
+.signin-box h1{
+  padding-top: 3%;
+  padding: 10px 0 10px 0;
+  border-bottom: 1px solid rgb(116, 116, 116);
+}
+
+form .text-field {
+  position: relative;
+  border-radius: 30px;
+  margin: 30px;
+}
+
+.signin-box .text-field input{
+  position: relative;
+  width: 250px;
+  height: 44px;
+  line-height: 44px;
+  
+}
+input{
+  width: 100%;
+  border: 0;
+  outline: 0;
+  padding: 0.5rem 0;
+  border-bottom: 2px solid #505050;
+  box-shadow: none;
+  color: #111;
+  background-color: rgba(255, 0, 0, 0);
+}
+input:invalid {
+  outline: 0;
+}
+input:focus,
+input:valid {
+  border-color: #00c3dd;
+}
+
+input:focus~label,
+input:valid~label {
+  font-size: 14px;
+  top: -20px;
+  color: #00c3dd;
+}
+
+
+.text-field label{
+  position: absolute;
+  top: -13px;
+  left: -70px;
+  width: 100%;
+  color: #181818;
+  transition: 0.2s all;
+  cursor: text;
+
+}
+
+.forgot-paswd{
+  padding-bottom: 20px;
+  
+}
+
+.forgot-paswd a{
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  transition: 0.1s;
+}
+.forgot-paswd a:active{
+  color: rgb(92, 92, 92);
+  font-size: 17.5px;
+  transition: 0.1s;
+}
+
+.btn-form{
+  margin-bottom: 20px;
+}
+
+.btn-form button{
+  outline: none;
+  border: none;
+  background-color: #adf5ff;
+  padding: 13px 17px;
+  border-radius: 50px;
+  color: white;
+  transition: 0.3s;
+  font-size: 18px;
+}
+
+.btn-form button:hover{
+  background-color: white;
+  color: #adf5ff;
+}
+
+
+
+.alreadylogin {
+  color: black;
+  position: sticky;
+  font-size: 17px;
+}
+
+.alreadylogin a{
+  color: rgb(49, 49, 49);
+  border-bottom: 2px solid #adf5ff;
+}
+
+.alreadylogin a:active{
+  color: rgb(65, 65, 65);
+  font-size: 17.4px;
+}
